@@ -1,0 +1,7 @@
+pytest==7.4.0
+pytest-html==3.2.0
+pytest
+pandas
+matplotlib
+reportlab
+plotly
