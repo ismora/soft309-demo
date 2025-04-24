@@ -1,0 +1,82 @@
+Test Class,Test Case,Resultado,Tiempo (s),Error
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,PASS,0.001,
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,FAIL,0.001,"AssertionError: assert False
+ +  where False = <bound method Random.choice of <random.Random object at 0x00000254D8427630>>([True, False])
+ +    where <bound method Random.choice of <random.Random object at 0x00000254D8427630>> = <module 'random' from 'C:\\Users\\veron\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py'>.choice"
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,PASS,0.001,
+tests.test_operations,test_suma,PASS,0.002,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.002,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.003,
+tests.test_math_ops.TestMathOperations,test_flaky_example,PASS,0.002,
+tests.test_operations,test_suma,PASS,0.002,
+tests.test_operations,test_resta,PASS,0.002,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,FAIL,0.001,"AssertionError: assert False
+ +  where False = <bound method Random.choice of <random.Random object at 0x000002DEDF61B910>>([True, False])
+ +    where <bound method Random.choice of <random.Random object at 0x000002DEDF61B910>> = <module 'random' from 'C:\\Users\\veron\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py'>.choice"
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.000,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,FAIL,0.001,"AssertionError: assert False
+ +  where False = <bound method Random.choice of <random.Random object at 0x000002A66F113F30>>([True, False])
+ +    where <bound method Random.choice of <random.Random object at 0x000002A66F113F30>> = <module 'random' from 'C:\\Users\\veron\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py'>.choice"
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,PASS,0.001,
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.004,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.003,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.005,
+tests.test_math_ops.TestMathOperations,test_flaky_example,FAIL,0.002,"AssertionError: assert False
+ +  where False = <bound method Random.choice of <random.Random object at 0x0000025C578880D0>>([True, False])
+ +    where <bound method Random.choice of <random.Random object at 0x0000025C578880D0>> = <module 'random' from 'C:\\Users\\veron\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py'>.choice"
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,FAIL,0.001,"AssertionError: assert False
+ +  where False = <bound method Random.choice of <random.Random object at 0x000001DACEDDBED0>>([True, False])
+ +    where <bound method Random.choice of <random.Random object at 0x000001DACEDDBED0>> = <module 'random' from 'C:\\Users\\veron\\AppData\\Local\\Programs\\Python\\Python310\\lib\\random.py'>.choice"
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_add,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_subtract,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_multiply,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_divide,PASS,0.001,
+tests.test_math_ops.TestMathOperations,test_flaky_example,PASS,0.001,
+tests.test_operations,test_suma,PASS,0.001,
+tests.test_operations,test_resta,PASS,0.001,

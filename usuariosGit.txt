@@ -1,0 +1,49 @@
+Buenas tardes, espero que estén muy bien. 
+
+Antes de la sesión 3, por favor realizar lo siguiente:
+- Desinstalar la versión de Python instalada.
+- Instalar Python 3.10.5:
+  - Windows: www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe  
+  - macOS: www.python.org/ftp/python/3.10.5/python-3.10.5-macos11.pkg
+
+- Clonar el repositorio asignado (clonar solo el repositorio asignado a su persona). Para clonar el repositorio debe ingresar a GitKraken, clic en File / Clone Repo, ingresar la URL del repositorio asignado.  
+
+VIVIANA VARGAS VILLALOBOS 
+-	Usuario en GitHub: vivianavargasv
+-	Repositorio a clonar: https://github.com/ismora/soft309-VVV.git 
+
+LUIS ANDRES VEGA MADRIGAL
+-	Usuario en GitHub: luisvm28
+-	Repositorio a clonar: https://github.com/ismora/soft309-LAVM.git 
+
+ANGEL ALEXA PRADO ZUÑIGA	
+-	Usuario en GitHub: AngelPradoZ
+-	Repositorio a clonar: https://github.com/ismora/soft309-AAPZ.git 
+
+MAUREN CRISTINA FERNANDEZ ARCE
+-	Usuario en GitHub: maufergit
+-	Repositorio a clonar: https://github.com/ismora/soft309-MCFA.git 
+
+KEVIN VINICIO JIMENEZ SALAS
+-	Usuario en GitHub: Glosed
+-	Repositorio a clonar: https://github.com/ismora/soft309-KVJS.git 
+
+Rebeca Chacon Rodriguez
+-	Usuario en GitHub: rebevic92
+-	Repositorio a clonar: https://github.com/ismora/soft309-RChR.git 
+
+ADRIANA VARGAS VILLALOBOS
+-	Usuario en GitHub: aadri1112p 
+-	Repositorio a clonar: https://github.com/ismora/soft309-AVV.git  
+
+KIRIATH YARETH GONZALEZ ROMERO
+-	Usuario en GitHub: Kiriathgl 
+-	Repositorio a clonar: https://github.com/ismora/soft309-KYGR.git 
+
+KAROL MELISSA MAROTO HERNANDEZ	
+-	Usuario en GitHub: 
+-	Repositorio a clonar: https://github.com/ismora/soft309-KMMH.git
+
+HAELYN JULISSA ZUÑIGA MADRIGAL
+- Usuario en GitHub: haelynzun
+- epositorio a clonar: https://github.com/ismora/HJZM.git
