@@ -1,0 +1,56 @@
+name: Python CI Pipeline   # Nombre del pipeline  
+
+
+on: [push] # Se ejecuta en cada push al repositorio
+
+
+jobs:
+  test:   # Define un trabajo llamado "test"
+    runs-on: ${{ matrix.os }} # Ejecuta en múltiples sistemas operativos
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]  # Sistemas operativos
+        python-version: ["3.9", "3.10", "3.11"]  # Versiones válidas de Python
+      fail-fast: false  # Evita que se cancelen otros jobs si uno falla
+
+
+    steps:
+    # Paso 1: Obtener el código del repositorio
+    - name: Checkout código
+      uses: actions/checkout@v4   # Acción oficial de GitHub para descargar el código
+
+
+    # Paso 2: Configurar Python
+    - name: Configurar Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5  # Versión actualizada
+      with:
+        python-version: ${{ matrix.python-version }} # Usa la versión de la matriz
+
+
+    # Paso 3: Instalar dependencias
+    - name: Instalar dependencias
+      run: pip install -r requirements.txt  # Instala pytest
+
+
+    # Paso 4: Ejecutar pruebas
+    - name: Ejecutar pruebas
+      run: pytest tests/ --junitxml=report.xml  # Genera reporte XML
+
+
+    # Paso 5: Subir reporte de pruebas
+    - name: Subir reporte
+      uses: actions/upload-artifact@v4  # Versión corregida
+      with:
+        name: test-report-${{ matrix.os }}-${{ matrix.python-version }}
+        path: report.xml
+
+
+    #Reporte visual
+    - name: Instalar pytest-html
+      run: pip install pytest-html
+
+
+    - name: Generar reporte HTML
+      run: pytest tests/ --html=report.html --self-contained-html
+
+
