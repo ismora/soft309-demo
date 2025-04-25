@@ -10,3 +10,4 @@ def test_suma():
 
 def test_resta():
     assert resta(5, 3) == 2
+    assert resta(15, 3) == 12
