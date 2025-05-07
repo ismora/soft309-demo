@@ -9,7 +9,7 @@ import reports.report_generator
 def run_tests():
     """Ejecuta pytest y genera reporte XML"""
     os.makedirs("reports", exist_ok=True)
-    ########################################## Código faltante
+    pytest.main(["--junit-xml=reports/results.xml"]) #Ejecución de las pruebas
 
 def generate_test_csv():
     """Genera CSV con los resultados desde el XML de pytest"""
@@ -29,8 +29,8 @@ def generate_test_csv():
             time = testcase.get('time')
 
             # Verificar tanto 'error' como 'failure'
-            ########################################## Código faltante
-            ########################################## Código faltante
+            failure = testcase.find("failure")
+            error = testcase.find("error")
 
             # Determinar resultado
             if error is not None or failure is not None:
